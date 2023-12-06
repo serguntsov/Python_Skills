@@ -1,49 +1,83 @@
 .frame2{
-    flex: 1 0 auto;
     display: flex;
     flex-direction: column;
-    background-color: red;;
-    &__logo{
-        margin-top: 14px;
-        margin-left: 30px;
-        margin-bottom: 26px;
-    }
+    background-color: #54B6B9;
+    width: 382px;
+    height: 542px;
+    margin-left: 634px;
+    border-radius: 40px 0px 0px 40px;
+    position: fixed;
     &__content{
-        padding-top: 266px;
+        padding-top: 60px;
         padding-bottom: 272px;
         width: 100%;
-        max-width: 383px;
+        max-width: 382px;
         align-self: center;
+        margin-left: 113px;
+    }
+    &__title{
+        font-weight: 400;
+        font-size: 28px;
+        line-height: normal;
+        color: #E0FBF2;
+        display: block;
+        margin-bottom: 42px;
     }
 }
-.logo {
-    font-weight: 400;
-    font-size: 30px;
-    line-height: normal;
-    color: #FFF;
-    text-decoration: none;
-}
 
-.hello {
-    font-weight: 400;
-    font-size: 28px;
-    line-height: normal;
-    color: #E0FBF2;
-    display: block;
-    margin-bottom: 42px;
-}
-.checkbox {
-    color: #E0FBF2;
-    font-size: 14px;
-}
-.link_pswd {
-    color: #E0FBF2;
-    font-size: 16px;
-    text-decoration: none;
-}
 .input-box{
+    margin-left: 5px;
     margin-bottom: 42px;
     &:last-of-type{
         margin-bottom: 0;
     }
+    input {
+        width: 63%;
+        height: 100%;
+        border: none;
+        outline: none;
+        background: #9AD8D5; /* Цвет фона инпута */
+        padding: 16px 13px 15px; /* Отступы внутри инпута */
+        border-radius: 9px; /* Радиус границы инпута */
+        font-size: 16px;
+        color: #333; /* Цвет текста инпута */
+        user-select: none;
+        }
+}
+
+.checkbox {
+    display: flex;
+    color: #E0FBF2;
+    user-select: none;
+    margin-bottom: 42px;
+}
+
+.checkbox input[type="checkbox"] {
+    margin-left: 7px;
+    width: 16px; /* Ширина чекбокса */
+    height: 16px; /* Высота чекбокса */
+    margin-right: 9px; /* Отступ между чекбоксом и текстом */
+}
+
+.btn-box{
+    margin-bottom: 42px;
+    margin-left: 84px;
+    button {
+        width: 92px;
+        border: none;
+        outline: none;
+        background: #D9F3EB; /* Цвет фона кнопки */
+        padding: 4px; /* Отступы внутри кнопки */
+        border-radius: 9px; /* Радиус границы кнопки */
+        font-size: 18px;
+        color: #54B6B9;
+        cursor: pointer;
+    }
+}
+  
+.link_pswd {
+    color: #E0FBF2;
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: 64px;
 }

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css" />
     <title>Document</title>
@@ -15,7 +16,7 @@
         <div class="menu">
         <section class="frame2">
           <div class="frame2__content">
-            <h1 class="hello__title hello">Добро пожаловать</h1>
+            <h1 class="frame2__title">Добро пожаловать</h1>
             <form action="#" class="frame2__frame2-box frame2-box">
               <div class="frame2-box__input-box input-box">
                 <input 
@@ -31,12 +32,13 @@
                 id="Password"
                 placeholder="Пароль">
               </div>
-              <div class="forget checkbox">
-                <label for=""><input type="checkbox">Запомнить меня</label>
+              <div class="frame2-box__checkbox checkbox">
+                <input type="checkbox" id="checkbox">
+                <label for="checkbox">Запомнить меня</label>
               </div>
 
               <div class="frame2-box__btn-box btn-box">
-                <button type="submit"></button>
+                <button type="submit">Войти</button>
               </div>
             <p class="frame2__subtitle"><a href="#" class="frame2__link link_pswd">Забыли пароль?</a></p>
             </form>
