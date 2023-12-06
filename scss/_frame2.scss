@@ -1,0 +1,49 @@
+.frame2{
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: red;;
+    &__logo{
+        margin-top: 14px;
+        margin-left: 30px;
+        margin-bottom: 26px;
+    }
+    &__content{
+        padding-top: 266px;
+        padding-bottom: 272px;
+        width: 100%;
+        max-width: 383px;
+        align-self: center;
+    }
+}
+.logo {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: normal;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.hello {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: normal;
+    color: #E0FBF2;
+    display: block;
+    margin-bottom: 42px;
+}
+.checkbox {
+    color: #E0FBF2;
+    font-size: 14px;
+}
+.link_pswd {
+    color: #E0FBF2;
+    font-size: 16px;
+    text-decoration: none;
+}
+.input-box{
+    margin-bottom: 42px;
+    &:last-of-type{
+        margin-bottom: 0;
+    }
+}

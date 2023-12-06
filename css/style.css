@@ -1,0 +1,140 @@
+@import url("https://fonts.cdnfonts.com/css/evolventa");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  font-family: "evolventa", sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.form {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #54B6B9;
+}
+.form__logo {
+  margin-top: 14px;
+  margin-left: 30px;
+  margin-bottom: 26px;
+}
+
+.logo {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: normal;
+  color: #FFF;
+  text-decoration: none;
+}
+
+.promo {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 277px;
+          flex: 0 0 277px;
+  background-color: blue;
+}
+
+.frame2 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: red;
+}
+.frame2__logo {
+  margin-top: 14px;
+  margin-left: 30px;
+  margin-bottom: 26px;
+}
+.frame2__content {
+  padding-top: 266px;
+  padding-bottom: 272px;
+  width: 100%;
+  max-width: 383px;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.logo {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: normal;
+  color: #FFF;
+  text-decoration: none;
+}
+
+.hello {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: normal;
+  color: #E0FBF2;
+  display: block;
+  margin-bottom: 42px;
+}
+
+.checkbox {
+  color: #E0FBF2;
+  font-size: 14px;
+}
+
+.link_pswd {
+  color: #E0FBF2;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.input-box {
+  margin-bottom: 42px;
+}
+.input-box:last-of-type {
+  margin-bottom: 0;
+}
