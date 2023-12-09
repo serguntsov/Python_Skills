@@ -15,11 +15,10 @@
 }
 
 body {
-  font-family: "evolventa", sans-serif;
-  font-size: 16px;
-  line-height: 1.2;
-  width: 100%;
-  min-height: 100vh;
+  font-family: "evolventa";
+  line-height: normal;
+  font-style: normal;
+  font-weight: 400;
 }
 
 .container {
@@ -44,10 +43,7 @@ body {
           flex-direction: row;
 }
 
-.form {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 0 auto;
-          flex: 1 0 auto;
+.header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -57,29 +53,16 @@ body {
           flex-direction: column;
   background-color: #54B6B9;
   margin-bottom: 186px;
-}
-.form__logo {
-  margin-top: 14px;
-  margin-left: 30px;
-  margin-bottom: 26px;
+  position: relative;
+  padding: 14px 30px 26px;
 }
 
-.logo {
-  font-weight: 400;
-  font-size: 30px;
-  line-height: normal;
+.heading {
   color: #FFF;
   text-decoration: none;
-}
-
-.promo {
-  background-color: #E0FBF2;
-  margin-right: 627px;
-  margin-left: 1016px;
-  width: 277px;
-  height: 542px;
-  border-radius: 0px 40px 40px 0px;
-  position: fixed;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
 }
 
 .frame2 {
@@ -93,7 +76,10 @@ body {
   background-color: #54B6B9;
   width: 382px;
   height: 542px;
-  margin-left: 634px;
+  right: 50%;
+  -webkit-transform: translateX(52.5px);
+      -ms-transform: translateX(52.5px);
+          transform: translateX(52.5px);
   border-radius: 40px 0px 0px 40px;
   position: fixed;
 }
@@ -107,9 +93,9 @@ body {
   margin-left: 113px;
 }
 .frame2__title {
+  line-height: normal;
   font-weight: 400;
   font-size: 28px;
-  line-height: normal;
   color: #E0FBF2;
   display: block;
   margin-bottom: 42px;
@@ -148,6 +134,8 @@ body {
       -ms-user-select: none;
           user-select: none;
   margin-bottom: 42px;
+  font-size: 14px;
+  line-height: 22px;
 }
 
 .checkbox input[type=checkbox] {
@@ -155,11 +143,15 @@ body {
   width: 16px; /* Ширина чекбокса */
   height: 16px; /* Высота чекбокса */
   margin-right: 9px; /* Отступ между чекбоксом и текстом */
+  border-radius: 2px;
 }
 
 .btn-box {
   margin-bottom: 42px;
   margin-left: 84px;
+}
+.btn-box :hover {
+  background-color: #9AD8D5;
 }
 .btn-box button {
   width: 92px;
@@ -170,6 +162,8 @@ body {
   border-radius: 9px; /* Радиус границы кнопки */
   font-size: 18px;
   color: #54B6B9;
+  height: 32px;
+  padding: 0px;
   cursor: pointer;
 }
 
@@ -178,4 +172,26 @@ body {
   font-size: 16px;
   text-decoration: none;
   margin-left: 64px;
+}
+
+.frame1 {
+  background-color: #E0FBF2;
+  left: 50%;
+  -webkit-transform: translateX(52.5px);
+      -ms-transform: translateX(52.5px);
+          transform: translateX(52.5px);
+  width: 277px;
+  height: 542px;
+  border-radius: 0px 40px 40px 0px;
+  position: fixed;
+}
+
+.image img {
+  width: 124px;
+  height: 126px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  padding-top: 115px;
+  padding-left: 76.5px;
+  margin-bottom: 40px;
 }

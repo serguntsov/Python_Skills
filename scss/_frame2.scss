@@ -4,7 +4,9 @@
     background-color: #54B6B9;
     width: 382px;
     height: 542px;
-    margin-left: 634px;
+    right: 50%;
+    transform: translateX(52.5px);
+    
     border-radius: 40px 0px 0px 40px;
     position: fixed;
     &__content{
@@ -16,9 +18,9 @@
         margin-left: 113px;
     }
     &__title{
+        line-height: normal;
         font-weight: 400;
         font-size: 28px;
-        line-height: normal;
         color: #E0FBF2;
         display: block;
         margin-bottom: 42px;
@@ -50,6 +52,8 @@
     color: #E0FBF2;
     user-select: none;
     margin-bottom: 42px;
+    font-size: 14px;
+    line-height: 22px;
 }
 
 .checkbox input[type="checkbox"] {
@@ -57,11 +61,16 @@
     width: 16px; /* Ширина чекбокса */
     height: 16px; /* Высота чекбокса */
     margin-right: 9px; /* Отступ между чекбоксом и текстом */
+    border-radius: 2px;
 }
+
 
 .btn-box{
     margin-bottom: 42px;
     margin-left: 84px;
+    :hover{
+        background-color: #9AD8D5;
+    }
     button {
         width: 92px;
         border: none;
@@ -71,6 +80,8 @@
         border-radius: 9px; /* Радиус границы кнопки */
         font-size: 18px;
         color: #54B6B9;
+        height: 32px;
+        padding: 0px;
         cursor: pointer;
     }
 }
