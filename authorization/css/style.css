@@ -92,8 +92,7 @@ body {
       align-self: center;
   margin-left: 113px;
 }
-.frame2__title {
-  line-height: normal;
+.frame2__header {
   font-weight: 400;
   font-size: 28px;
   color: #E0FBF2;
@@ -185,6 +184,15 @@ body {
   border-radius: 0px 40px 40px 0px;
   position: fixed;
 }
+.frame1__header {
+  font-weight: 400;
+  font-size: 28px;
+  color: #54B6B9;
+  text-align: center;
+  margin-left: 52px;
+  margin-right: 52px;
+  margin-bottom: 40px;
+}
 
 .image img {
   width: 124px;
@@ -194,4 +202,25 @@ body {
   padding-top: 115px;
   padding-left: 76.5px;
   margin-bottom: 40px;
+}
+
+.btn-box2 {
+  margin-bottom: 42px;
+  margin-left: 84px;
+}
+.btn-box2 :hover {
+  background-color: #479b9d;
+}
+.btn-box2 button {
+  width: 103px;
+  border: none;
+  outline: none;
+  background: #54B6B9; /* Цвет фона кнопки */
+  padding: 4px; /* Отступы внутри кнопки */
+  border-radius: 9px; /* Радиус границы кнопки */
+  font-size: 18px;
+  color: #D9F3EB;
+  height: 32px;
+  padding: 0px;
+  cursor: pointer;
 }

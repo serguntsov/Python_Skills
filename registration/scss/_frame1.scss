@@ -1,0 +1,48 @@
+.frame1 {
+    background-color: #54B6B9;
+    right: 50%;
+    transform: translateX(-52.5px);
+    width: 277px;
+    height: 542px;
+    border-radius: 40px 0px 0px 40px;
+    position: fixed;
+    &__header{
+      font-weight: 400;
+      font-size: 28px;
+      color: #FFFFFF;
+      text-align: center;
+      margin-left: 52px;
+      margin-right: 52px;
+      margin-bottom: 40px;
+    }    
+}
+
+.image img{
+  width: 124px;
+  height: 126px;
+  flex-shrink: 0;
+  padding-top: 115px;
+  padding-left: 76.5px;
+  margin-bottom: 40px;
+}
+
+.btn-box2{
+  margin-bottom: 42px;
+  margin-left: 84px;
+  :hover{
+      background-color: #bae5e0
+  }
+  button {
+      width: 103px;
+      border: none;
+      outline: none;
+      background: #D9F3EB; /* Цвет фона кнопки */
+      padding: 4px; /* Отступы внутри кнопки */
+      border-radius: 9px; /* Радиус границы кнопки */
+      font-size: 18px;
+      color: #54B6B9;
+      height: 32px;
+      padding: 0px;
+      cursor: pointer;
+  }
+}

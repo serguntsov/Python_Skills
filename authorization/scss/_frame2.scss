@@ -6,7 +6,6 @@
     height: 542px;
     right: 50%;
     transform: translateX(52.5px);
-    
     border-radius: 40px 0px 0px 40px;
     position: fixed;
     &__content{
@@ -17,8 +16,7 @@
         align-self: center;
         margin-left: 113px;
     }
-    &__title{
-        line-height: normal;
+    &__header{
         font-weight: 400;
         font-size: 28px;
         color: #E0FBF2;
