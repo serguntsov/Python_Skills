@@ -1,12 +1,12 @@
 .frame1 {
     background-color: #E0FBF2;
     left: 50%;
-    transform: translateX(52.5px);
+    transform: translateX(-329.5px);
     width: 277px;
     height: 542px;
     border-radius: 0px 40px 40px 0px;
-    position: fixed;
-    &__header{
+    position: relative;
+    &__title{
       font-weight: 400;
       font-size: 28px;
       color: #54B6B9;
@@ -24,6 +24,7 @@
   padding-top: 115px;
   padding-left: 76.5px;
   margin-bottom: 40px;
+  user-select: none;
 }
 
 .btn-box2{
