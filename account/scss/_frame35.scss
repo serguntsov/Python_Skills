@@ -1,0 +1,31 @@
+.frame35 {
+    left: 50%;
+    transform: translateX(-586px);
+    flex-direction: column;
+    margin-top: 15px;
+    margin-left: 37px;
+    width: 980px;
+    height: 828px;
+    position: relative;
+    &__title{
+        font-size: 25px;
+        font-weight: 400;
+        margin-bottom: 15px;
+    }
+}
+
+.box1{
+    padding: 24px 23px;
+    margin-top: 45px;
+    width: 481px;
+    border-radius: 20px;
+    border: 3px solid #54B6B9;
+    &__title{
+        font-size: 25px;
+        font-weight: 400;
+        margin-bottom: 15px;
+    }
+    &__task{
+        margin-top: 23px;
+    }
+}

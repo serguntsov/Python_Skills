@@ -1,0 +1,29 @@
+.frame32 {
+    width: 280px;
+    height: 224px;
+    left: 50%;
+    transform: translateX(-665px);
+    border-radius: 40px;
+    border: 3px solid #54B6B9;
+    position: relative;
+}
+
+.btn-box{
+    padding: 44px 40px;
+    :hover{
+        background-color: #479b9d
+    }
+    button {
+        margin-bottom: 20px;
+        width: 200px;
+        height: 58px;
+        border: none;
+        outline: none;
+        background: #54B6B9; /* Цвет фона кнопки */
+        border-radius: 9px; /* Радиус границы кнопки */
+        font-size: 20px;
+        color: #E0FBF2;
+        padding: 0px;
+        cursor: pointer;
+    }
+}

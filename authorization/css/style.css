@@ -43,7 +43,7 @@ body {
           flex-direction: row;
 }
 
-.header {
+header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
