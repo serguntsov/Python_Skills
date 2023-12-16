@@ -45,6 +45,17 @@
     }
 }
 
+.pass-icon img{
+    position: absolute;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    left: 73.5%;
+    bottom: 37.4%;
+    user-select: none;
+}
+
+
 .btn-box{
     margin-top: 97px;
     margin-left: 51.5px;
@@ -61,6 +72,7 @@
         color: #E0FBF2;
         height: 32px;
         padding: 0px;
+        transition: 0.5s;
         cursor: pointer;
     }
 }

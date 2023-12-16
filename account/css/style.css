@@ -122,7 +122,7 @@ body {
   margin-top: 15px;
   margin-left: 37px;
   width: 980px;
-  height: 828px;
+  height: 800px;
   position: relative;
 }
 .frame35__title {
@@ -145,4 +145,8 @@ body {
 }
 .box1__task {
   margin-top: 23px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }

@@ -9,7 +9,7 @@ header {
       -ms-flex-direction: column;
           flex-direction: column;
   background-color: #54B6B9;
-  margin-bottom: 130px;
+  margin-bottom: 119px;
   position: relative;
   padding: 14px 30px 26px;
 }
@@ -119,6 +119,8 @@ body {
   color: #54B6B9;
   height: 32px;
   padding: 0px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
   cursor: pointer;
 }
 
@@ -179,6 +181,19 @@ body {
           user-select: none;
 }
 
+.pass-icon img {
+  position: absolute;
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  left: 73.5%;
+  bottom: 37.4%;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
 .btn-box {
   margin-top: 97px;
   margin-left: 51.5px;
@@ -196,5 +211,7 @@ body {
   color: #E0FBF2;
   height: 32px;
   padding: 0px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
   cursor: pointer;
 }

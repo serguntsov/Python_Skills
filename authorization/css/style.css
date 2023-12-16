@@ -52,7 +52,7 @@ header {
       -ms-flex-direction: column;
           flex-direction: column;
   background-color: #54B6B9;
-  margin-bottom: 130px;
+  margin-bottom: 119px;
   position: relative;
   padding: 14px 30px 26px;
 }
@@ -123,6 +123,19 @@ header {
           user-select: none;
 }
 
+.pass-icon img {
+  position: absolute;
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  left: 77%;
+  bottom: 50.5%;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
 .checkbox {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -163,6 +176,8 @@ header {
   color: #54B6B9;
   height: 32px;
   padding: 0px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
   cursor: pointer;
 }
 
@@ -226,5 +241,7 @@ header {
   color: #D9F3EB;
   height: 32px;
   padding: 0px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
   cursor: pointer;
 }
