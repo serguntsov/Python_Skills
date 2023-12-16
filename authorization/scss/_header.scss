@@ -2,9 +2,10 @@ header{
     display: flex;
     flex-direction: column;
     background-color: #54B6B9;
-    margin-bottom: 119px;
-    position: relative;
+    width: 100%;
+    position: fixed;
     padding: 14px 30px 26px;
+    z-index: 1;
 }
 .heading{
     color: #FFF;

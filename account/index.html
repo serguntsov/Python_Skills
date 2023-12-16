@@ -7,6 +7,48 @@
     <link rel="stylesheet" href="./css/style.css" />
 </head>
 <body>
+<!-- модальное окно для изменения логина -->
+    <div class="modal1" id="modal1">
+      <div class="modal-login">
+        <h1 class="modal-login__title modal-title">Введите новый логин</h1>
+        <div class="modal-box__input-login input-box">
+          <input 
+          type="text" 
+          name="login" 
+          id="login">
+        </div>
+        <div class="modal-box__btn btn">
+          <button type="button" id="acceptBtn_log">Принять</button>
+        </div>
+      </div>
+      <div class="overlay" id="overlay"></div>
+    </div>
+<!-- модальное окно для изменения пароля -->
+    <div class="modal2" id="modal2">
+      <div class="modal-password">
+        <h1 class="modal-password__title modal-title">Введите текущий пароль</h1>
+        <div class="modal-box__input-box input-box-pass">
+          <input 
+          type="password" 
+          name="password" 
+          id="password">
+          <span class="pass-icon" id="pass-icon"><img src="../image/show.png" alt="show"></span>
+        </div>
+        <h1 class="modal-password__title modal-title-new">Введите новый пароль</h1>
+        <div class="modal-box__input-box input-box-pass">
+          <input 
+          type="password" 
+          name="new_password" 
+          id="new_password">
+          <span class="new_pass-icon" id="new_pass-icon"><img src="../image/show.png" alt="show"></span>
+        </div>
+        <div class="modal-box__btn btn_pass">
+          <button type="button" id="acceptBtn_pass">Принять</button>
+        </div>
+      </div>
+      <div class="overlay2" id="overlay2"></div>
+    </div>
+<!-- контейнер -->
     <div class="container">
       <header>
         <div class="left-section">
@@ -14,46 +56,107 @@
           <a href="#">Курс</a>
         </div>
         <div class="right-section">
-          <h7>Мой аккаунт</h7>
+          <a href="../account/">Мой аккаунт</a>
         </div>
       </header>
+      <!-- две секции -->
       <div class="menu">
         <section class="frame32">
           <div class="frame32-box__btn-box btn-box">
-            <a href="#"><button type="submit">Изменить логин</button></a>
-            <a href="#"><button type="submit">Изменить пароль</button></a>
+            <button type="button" id="openModalBtn_log">Изменить логин</button>
+            <button type="button" id="openModalBtn_pass">Изменить пароль</button>
           </div>
         </section>
         <section class="frame35">
           <div class="frame35__content">
             <h1 class="frame35__title">Прогресс домашних заданий</h1>
-            <div class="frame35-box box1">
-              <h1 class="box1__title">Домашнее задание по теме</h1>
-              <h1 class="box1__title">Набрано баллов:</h1>
-              <div class="box1__task">
+            <div class="frame35-box box">
+              <h1 class="box__title">Домашнее задание по теме</h1>
+              <h1 class="box__title">Набрано баллов:</h1>
+              <div class="box__task">
                 <svg class="task1-1" xmlns="http://www.w3.org/2000/svg" style="margin-right: 7px;" width="50" height="50" viewBox="0 0 50 50" fill="none">
-                  <circle cx="25" cy="25" r="25" fill="#7CD5CF"/>
+                  <circle cx="25" cy="25" r="25" fill="#f2f3f4"/>
                 </svg>
                 <svg class="task1-2" xmlns="http://www.w3.org/2000/svg" style="margin-right: 7px;" width="50" height="50" viewBox="0 0 50 50" fill="none">
-                  <circle cx="25" cy="25" r="25" fill="#7CD5CF"/>
+                  <circle cx="25" cy="25" r="25" fill="#f2f3f4"/>
                 </svg>
                 <svg class="task1-3" xmlns="http://www.w3.org/2000/svg" style="margin-right: 7px;" width="50" height="50" viewBox="0 0 50 50" fill="none">
-                  <circle cx="25" cy="25" r="25" fill="#7CD5CF"/>
+                  <circle cx="25" cy="25" r="25" fill="#f2f3f4"/>
                 </svg>
                 <svg class="task1-4" xmlns="http://www.w3.org/2000/svg" style="margin-right: 7px;" width="50" height="50" viewBox="0 0 50 50" fill="none">
-                  <circle cx="25" cy="25" r="25" fill="#7CD5CF"/>
+                  <circle cx="25" cy="25" r="25" fill="#f2f3f4"/>
                 </svg>
                 <svg class="task1-5" xmlns="http://www.w3.org/2000/svg" style="margin-right: 7px;" width="50" height="50" viewBox="0 0 50 50" fill="none">
-                  <circle cx="25" cy="25" r="25" fill="#7CD5CF"/>
+                  <circle cx="25" cy="25" r="25" fill="#f2f3f4"/>
                 </svg>
                 <svg class="task1-6" xmlns="http://www.w3.org/2000/svg" style="margin-right: 7px;" width="50" height="50" viewBox="0 0 50 50" fill="none">
-                  <circle cx="25" cy="25" r="25" fill="#7CD5CF"/>
+                  <circle cx="25" cy="25" r="25" fill="#f2f3f4"/>
                 </svg>
                 <svg class="task1-7" xmlns="http://www.w3.org/2000/svg" style="margin-right: 7px;" width="50" height="50" viewBox="0 0 50 50" fill="none">
-                  <circle cx="25" cy="25" r="25" fill="#7CD5CF"/>
+                  <circle cx="25" cy="25" r="25" fill="#f2f3f4"/>
                 </svg>
                 <svg class="task1-8" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
-                  <circle cx="25" cy="25" r="25" fill="#7CD5CF"/>
+                  <circle cx="25" cy="25" r="25" fill="#f2f3f4"/>
+                </svg>
+              </div>
+            </div>
+            <div class="frame35-box box">
+              <h1 class="box__title">Домашнее задание по теме</h1>
+              <h1 class="box__title">Набрано баллов:</h1>
+              <div class="box__task">
+                <svg class="task2-1" xmlns="http://www.w3.org/2000/svg" style="margin-right: 7px;" width="50" height="50" viewBox="0 0 50 50" fill="none">
+                  <circle cx="25" cy="25" r="25" fill="#f2f3f4"/>
+                </svg>
+                <svg class="task2-2" xmlns="http://www.w3.org/2000/svg" style="margin-right: 7px;" width="50" height="50" viewBox="0 0 50 50" fill="none">
+                  <circle cx="25" cy="25" r="25" fill="#f2f3f4"/>
+                </svg>
+                <svg class="task2-3" xmlns="http://www.w3.org/2000/svg" style="margin-right: 7px;" width="50" height="50" viewBox="0 0 50 50" fill="none">
+                  <circle cx="25" cy="25" r="25" fill="#f2f3f4"/>
+                </svg>
+                <svg class="task2-4" xmlns="http://www.w3.org/2000/svg" style="margin-right: 7px;" width="50" height="50" viewBox="0 0 50 50" fill="none">
+                  <circle cx="25" cy="25" r="25" fill="#f2f3f4"/>
+                </svg>
+                <svg class="task2-5" xmlns="http://www.w3.org/2000/svg" style="margin-right: 7px;" width="50" height="50" viewBox="0 0 50 50" fill="none">
+                  <circle cx="25" cy="25" r="25" fill="#f2f3f4"/>
+                </svg>
+                <svg class="task2-6" xmlns="http://www.w3.org/2000/svg" style="margin-right: 7px;" width="50" height="50" viewBox="0 0 50 50" fill="none">
+                  <circle cx="25" cy="25" r="25" fill="#f2f3f4"/>
+                </svg>
+                <svg class="task2-7" xmlns="http://www.w3.org/2000/svg" style="margin-right: 7px;" width="50" height="50" viewBox="0 0 50 50" fill="none">
+                  <circle cx="25" cy="25" r="25" fill="#f2f3f4"/>
+                </svg>
+                <svg class="task2-8" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
+                  <circle cx="25" cy="25" r="25" fill="#f2f3f4"/>
+                </svg>
+              </div>
+            </div>
+            <div class="frame35-box box">
+              <h1 class="box__title">Домашнее задание по теме</h1>
+              <h1 class="box__title">Набрано баллов:</h1>
+              <div class="box__task">
+                <svg class="task3-1" xmlns="http://www.w3.org/2000/svg" style="margin-right: 7px;" width="50" height="50" viewBox="0 0 50 50" fill="none">
+                  <circle cx="25" cy="25" r="25" fill="#f2f3f4"/>
+                </svg>
+                <svg class="task3-2" xmlns="http://www.w3.org/2000/svg" style="margin-right: 7px;" width="50" height="50" viewBox="0 0 50 50" fill="none">
+                  <circle cx="25" cy="25" r="25" fill="#f2f3f4"/>
+                </svg>
+                <svg class="task3-3" xmlns="http://www.w3.org/2000/svg" style="margin-right: 7px;" width="50" height="50" viewBox="0 0 50 50" fill="none">
+                  <circle cx="25" cy="25" r="25" fill="#f2f3f4"/>
+                </svg>
+                <svg class="task3-4" xmlns="http://www.w3.org/2000/svg" style="margin-right: 7px;" width="50" height="50" viewBox="0 0 50 50" fill="none">
+                  <circle cx="25" cy="25" r="25" fill="#f2f3f4"/>
+                </svg>
+                <svg class="task3-5" xmlns="http://www.w3.org/2000/svg" style="margin-right: 7px;" width="50" height="50" viewBox="0 0 50 50" fill="none">
+                  <circle cx="25" cy="25" r="25" fill="#f2f3f4"/>
+                </svg>
+                <svg class="task3-6" xmlns="http://www.w3.org/2000/svg" style="margin-right: 7px;" width="50" height="50" viewBox="0 0 50 50" fill="none">
+                  <circle cx="25" cy="25" r="25" fill="#f2f3f4"/>
+                </svg>
+                <svg class="task3-7" xmlns="http://www.w3.org/2000/svg" style="margin-right: 7px;" width="50" height="50" viewBox="0 0 50 50" fill="none">
+                  <circle cx="25" cy="25" r="25" fill="#f2f3f4"/>
+                </svg>
+                <svg class="task3-8" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
+                  <circle cx="25" cy="25" r="25" fill="#f2f3f4"/>
                 </svg>
               </div>
             </div>
@@ -61,5 +164,6 @@
         </section>
       </div>
     </div>
+    <script src="./js/app.js"></script>
   </body>
 </html>
