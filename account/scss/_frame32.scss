@@ -28,6 +28,23 @@
     }
 }
 
+@media screen and (max-width: 1400px){
+    .frame32{
+        transform: translateX(-465px);
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .frame32{
+        transform: translateX(-380px);
+        width: 236px;
+        height: 180px;
+    }
+    .btn-box{
+        padding: 22px 18px;
+    }
+}
+
 .modal1, .modal2{
     display: none;
     align-items: center;

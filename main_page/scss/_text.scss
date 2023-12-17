@@ -8,7 +8,7 @@
     background: #D9C9F8;
     position: relative;
     
-    transform: translateX(0px);
+    transform: translateX(-360px);
     margin-bottom: 120px;
     &__title{
         font-size: 50px;
@@ -31,8 +31,7 @@
     border-radius: 48px;
     background: #C2F8EB;
     position: relative;
-    left: 50%;
-    transform: translateX(-240px);
+    transform: translateX(240px);
     margin-bottom: 120px;
     &__subtitle{
         font-size: 30px;
@@ -48,8 +47,6 @@
 }
 
 .frame10{
-    left: 50%;
-    transform: translateX(-708.5px);
     position: relative;
     width: 1285px;
     border-radius: 48px;
@@ -65,8 +62,6 @@
 .button3{
     margin-top: 196px;
     margin-bottom: 213px;
-    left: 50%;
-    transform: translateX(-173px);
     position: relative;
     :hover{
         background-color: #ae9fd5;
@@ -88,13 +83,29 @@
 
 @media screen and (max-width: 1490px){
     .frame9{
-        transform: translateX(-360px);
+        transform: translateX(0px);
     }
     .frame8{
-        transform: translateX(-480px);
+        transform: translateX(0px);
     }
     .frame10{
         width: 1000px;
-        transform: translateX(-566px);
+        
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .frame9{
+        transform: translateX(0px);
+    }
+    .frame8{
+        width: 660px;
+        height: 800px;
+
+        transform: translateX(0px);
+    }
+    .frame10{
+        width: 580px;
+        
     }
 }

@@ -85,9 +85,9 @@ header {
   border-radius: 48px;
   background: #D9C9F8;
   position: relative;
-  -webkit-transform: translateX(0px);
-      -ms-transform: translateX(0px);
-          transform: translateX(0px);
+  -webkit-transform: translateX(-360px);
+      -ms-transform: translateX(-360px);
+          transform: translateX(-360px);
   margin-bottom: 120px;
 }
 .frame9__title {
@@ -113,10 +113,9 @@ header {
   border-radius: 48px;
   background: #C2F8EB;
   position: relative;
-  left: 50%;
-  -webkit-transform: translateX(-240px);
-      -ms-transform: translateX(-240px);
-          transform: translateX(-240px);
+  -webkit-transform: translateX(240px);
+      -ms-transform: translateX(240px);
+          transform: translateX(240px);
   margin-bottom: 120px;
 }
 .frame8__subtitle {
@@ -134,10 +133,6 @@ header {
 }
 
 .frame10 {
-  left: 50%;
-  -webkit-transform: translateX(-708.5px);
-      -ms-transform: translateX(-708.5px);
-          transform: translateX(-708.5px);
   position: relative;
   width: 1285px;
   border-radius: 48px;
@@ -153,10 +148,6 @@ header {
 .button3 {
   margin-top: 196px;
   margin-bottom: 213px;
-  left: 50%;
-  -webkit-transform: translateX(-173px);
-      -ms-transform: translateX(-173px);
-          transform: translateX(-173px);
   position: relative;
 }
 .button3 :hover {
@@ -179,19 +170,33 @@ header {
 
 @media screen and (max-width: 1490px) {
   .frame9 {
-    -webkit-transform: translateX(-360px);
-        -ms-transform: translateX(-360px);
-            transform: translateX(-360px);
+    -webkit-transform: translateX(0px);
+        -ms-transform: translateX(0px);
+            transform: translateX(0px);
   }
   .frame8 {
-    -webkit-transform: translateX(-480px);
-        -ms-transform: translateX(-480px);
-            transform: translateX(-480px);
+    -webkit-transform: translateX(0px);
+        -ms-transform: translateX(0px);
+            transform: translateX(0px);
   }
   .frame10 {
     width: 1000px;
-    -webkit-transform: translateX(-566px);
-        -ms-transform: translateX(-566px);
-            transform: translateX(-566px);
+  }
+}
+@media screen and (max-width: 1000px) {
+  .frame9 {
+    -webkit-transform: translateX(0px);
+        -ms-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  .frame8 {
+    width: 660px;
+    height: 800px;
+    -webkit-transform: translateX(0px);
+        -ms-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  .frame10 {
+    width: 580px;
   }
 }

@@ -30,3 +30,19 @@
         user-select: none;
     }
 }
+
+@media screen and (max-width: 1400px){
+    .frame35{
+        transform: translateX(-386px);
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .frame35{
+        transform: translateX(-405px);
+        
+    }
+    .box{
+        padding: 11px 10px;
+    }
+}
