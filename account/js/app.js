@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
     acceptBtn_log.addEventListener('click', function () {
       //отправка данных на сервер.
-        document.getElementById('login').value = '';
+        document.getElementById('login').value = '';К
         modal1.style.display = 'none';
     });
 

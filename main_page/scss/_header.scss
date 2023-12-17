@@ -1,0 +1,16 @@
+header{
+    display: flex;
+    flex-direction: column;
+    background-color: #54B6B9;
+    width: 100%;
+    position: fixed;
+    padding: 14px 30px 26px;
+    z-index: 1;
+}
+.heading{
+    color: #FFF;
+    text-decoration: none;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+}

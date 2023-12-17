@@ -1,0 +1,35 @@
+@import url('https://fonts.cdnfonts.com/css/evolventa');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "evolventa";
+  line-height: normal;
+  font-style: normal;
+  font-weight: 400;
+  color: #000;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.text{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding-top: 240px;
+  align-items: center;
+}
