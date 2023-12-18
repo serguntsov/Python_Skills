@@ -1,15 +1,37 @@
 .text-container_title{
-    margin-top: 120px;
+    margin-top: 140px;
     font-size: 55px; 
-    margin-left: 479px;
+    margin-left: 640px;
     margin-bottom: 30px;
 }
 
 .text-container{
-    margin-left: 622px;
+    margin-left: 640px;
     max-height: 903px;
     max-width: 1030px;
     font-size: 30px;
+}
+
+.frame26, .frame27{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: jetbrains Mono;
+    font-size: 30px;
+    border-radius: 9px;
+    border: 6px solid #7B64BC;
+    padding: 37px 34px;
+    width: 612px; 
+}
+
+.first-word{
+    color: #636EDA;
+}
+.second-word{
+    color: #FF8484;
+}
+
+.frame27{
+    width: 414px;
 }
 
 .button3{
@@ -40,22 +62,66 @@
     }
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1380px){
     .text-container{
         font-size: 20px;
         margin-left: 462px;
     }
     .text-container_title{
-        font-size: 35px; 
+        font-size: 35px;
+        margin-left: 462px;
+    }
+    .frame26, .frame27{
+        font-size: 25px;
+        padding: 17px 14px;
+        width: 510px; 
+    }
+    .frame27{
+        width: 350px; 
     }
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1030px){
     .text-container{
         font-size: 15px;
         margin-left: 462px;
     }
     .text-container_title{
         font-size: 25px; 
+    }
+    .frame26, .frame27{
+        font-size: 20px;
+        padding: 17px 14px;
+        width: 410px; 
+    }
+    .frame27{
+        width: 280px; 
+    }
+}
+
+@media screen and (max-width: 930px){
+    .text-container, .text-container_title{
+        font-size: 15px;
+        margin-left: 442px;
+    }
+    .text-container_title{
+        font-size: 25px;
+    }
+    .frame26, .frame27{
+        font-family: none;
+        font-size: 20px;
+        padding: 7px 4px;
+        width: 305px; 
+        border: 3px solid #7B64BC;
+    }
+    .frame27{
+        width: 210px; 
+    }
+    .button3{
+        button {
+            width: 238px;
+            height: 25px;
+            padding: 10px 0px;
+        }
     }
 }
