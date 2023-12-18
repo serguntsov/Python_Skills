@@ -1,0 +1,28 @@
+.text-container{
+    margin-left: 622px;
+    margin-top: 138px;
+    max-height: 903px;
+    max-width: 1030px;
+    font-size: 30px;
+}
+
+@media screen and (min-width: 1920px){
+    .text-container{
+        max-width: 100%;
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .text-container{
+        font-size: 20px;
+        margin-left: 462px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .text-container{
+        font-size: 15px;
+        margin-left: 462px;
+    }
+}
