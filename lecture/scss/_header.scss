@@ -1,0 +1,23 @@
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: #54B6B9;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    padding: 14px 30px 26px;
+    justify-content: space-between;
+} 
+.left-section a,
+.right-section a{
+    color: #FFF;
+    text-decoration: none;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+}
+.right-section {
+    margin-right: 66px;
+}
+
+

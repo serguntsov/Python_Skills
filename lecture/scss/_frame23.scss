@@ -1,0 +1,61 @@
+.text-container_title{
+    margin-top: 120px;
+    font-size: 55px; 
+    margin-left: 479px;
+    margin-bottom: 30px;
+}
+
+.text-container{
+    margin-left: 622px;
+    max-height: 903px;
+    max-width: 1030px;
+    font-size: 30px;
+}
+
+.button3{
+    margin-top: 90px;
+    text-align: center;
+    :hover{
+        background-color: #ae9fd5;
+    }
+    button {
+        width: 278px;
+        height: 48px;
+        border: none;
+        outline: none;
+        border: 2px solid #7B64BC;
+        padding: 20px 22px;
+        border-radius: 9px; /* Радиус границы кнопки */
+        font-size: 25px;
+        color: #7B64BC;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 1920px){
+    .text-container{
+        max-width: 100%;
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .text-container{
+        font-size: 20px;
+        margin-left: 462px;
+    }
+    .text-container_title{
+        font-size: 35px; 
+    }
+}
+
+@media screen and (max-width: 900px){
+    .text-container{
+        font-size: 15px;
+        margin-left: 462px;
+    }
+    .text-container_title{
+        font-size: 25px; 
+    }
+}
